@@ -6,7 +6,6 @@
 FTP + HTTP file server for Aerport Reports and Aeradmin filestore. 
 
 ## Jenkins Plan 
-http://build.aeriscloud.com:8080/job/aerport-ftpserver/
 
 ## Deployment : Docker 
 
@@ -30,13 +29,13 @@ Assign any WEB port and keep 21 port external if require.
 version: '2'
 services: 
   ftpserver: 
-    image: repo.aeriscloud.com:8888/aerport/ftpserver:22 
+    image: ftpserver
     environment:
-      USER: webadm
-      PASS: webadm
+      USER: 
+      PASS: 
     stdin_open: true
     volumes:
-    - /opt/aeris/ftpserver:/opt
+    - /opt:/opt
     tty: true
     ports:
     - 8095:80/tcp
