@@ -1,9 +1,8 @@
 # README #
 
-###aerport-ftpserver 
 
-##De
-## Jenkins Plan 
+
+
 
 ## Deployment : Docker 
 
