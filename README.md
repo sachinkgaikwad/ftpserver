@@ -2,9 +2,7 @@
 
 ###aerport-ftpserver 
 
-##Description :
-FTP + HTTP file server for Aerport Reports and Aeradmin filestore. 
-
+##De
 ## Jenkins Plan 
 
 ## Deployment : Docker 
