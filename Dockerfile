@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER  sachin.gaikwad@aeris.net
+MAINTAINER  sachinkgaikwad@gmail.com
 RUN apt-get -y  update && apt-get -y  upgrade 
 RUN apt-get -y install apache2 curl vim
 
